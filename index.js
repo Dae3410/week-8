@@ -101,7 +101,7 @@ class Artist {
         return;
       }
   
-      this.artists.splice(index, 1); // Remove the artist from the array
+      this.artists.splice(index, 1); 
       alert(`Artist ${artistName} has been removed.`);
     }
   
@@ -133,6 +133,6 @@ class Artist {
   
   // Start the menu
   let menu = new Menu();
-  
+
   menu.start();
   
